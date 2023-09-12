@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Bar Hochman <bar@bfore.ai>"]
 readme = "README.md"
-packages = [{include = "fix_gtfs_data"}]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -13,6 +13,7 @@ httpx = "^0.24.1"
 pydantic = "^2.3.0"
 typer = "^0.9.0"
 pytz = "^2023.3.post1"
+python-bidi = "^0.4.2"
 
 
 [build-system]
